@@ -1,0 +1,2 @@
+echo "Running lint-staged (formatting and type checking)..."
+npx lint-staged
