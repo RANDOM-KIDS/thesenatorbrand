@@ -46,8 +46,7 @@ thesenatorbrand/
 └── src/
 ├── app/
 │ ├── api/
-│ │ └── openapi/
-│ └── api-docs/
+│ └── api-docs/ So I would do all this
 ├── db/
 └── lib/
 
