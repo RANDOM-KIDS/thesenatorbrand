@@ -5,7 +5,10 @@ import * as dotenv from "dotenv";
 
 dotenv.config({ path: ".env" });
 
-const migrationClient = postgres(process.env.DATABASE_URL!, { max: 1 });
+const migrationClient = postgres(
+  (process.env.DATABASE_URL_DIRECT ?? process.env.DATABASE_URL)!,
+  { max: 1 },
+);
 
 async function main() {
   await migrate(drizzle(migrationClient), { migrationsFolder: "drizzle" });
