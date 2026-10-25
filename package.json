@@ -26,17 +26,21 @@
   },
   "dependencies": {
     "@dotenvx/dotenvx": "^2.34.2",
+    "better-auth": "^1.7.12",
     "dotenv": "^18.0.7",
     "drizzle-orm": "^0.45.4",
     "next": "16.4.0",
+    "nodemailer": "^10.2.1",
     "postgres": "^3.4.9",
     "react": "19.3.0",
     "react-dom": "19.3.0",
-    "swagger-ui-react": "^5.33.2"
+    "swagger-ui-react": "^5.33.2",
+    "zod": "^4.6.7"
   },
   "devDependencies": {
     "@tailwindcss/turbopack": "^4",
     "@types/node": "^20",
+    "@types/nodemailer": "^8.0.2",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "@types/swagger-ui-react": "^5.18.0",
@@ -49,6 +53,7 @@
     "prettier": "^3.9.10",
     "tailwindcss": "^4",
     "tsx": "^4.23.15",
-    "typescript": "^5"
+    "typescript": "^5",
+    "vitest": "^3.2.7"
   }
 }
